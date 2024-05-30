@@ -9,7 +9,7 @@ public class Exer1_11 {
     public static void main(String[] args) {
         // 1年的时间：t = (365 * 24 * 60) s
         // 每年的人数：上一年人数 + t / 7.0 - t / 13.0 + t / 45.0
-        int t = 365 * 24 * 60;
+        int t = 365 * 24 * 60 * 60;
         int now = 312032486;
 
         // 小数应该不算一个人 吧? 就用整除
